@@ -54,3 +54,63 @@ body {
     border-radius: 5px;
 }
 /* banner contents styles end here */
+/* banner container styles end here */
+
+
+/* <!-- web development section styles start here --> */
+.web-development-container {
+    width: 1365px;
+    height: 1200px;
+    margin: 0 auto;
+    border: 2px solid red;
+    margin-top: 64px;
+}
+.web-development-first-content {
+    text-align: center;
+}
+.web-development-first-content h1{
+    margin-top: 60px;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.web-development-first-content p {
+    font-weight: 400px;
+    font-size: 13px;
+    margin-right: 200px;
+    margin-left: 200px;
+}
+.web-development-second-content, .web-development-fourth-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 80px 145px 80px 145px;
+}
+.content-header {
+    font-weight: bold;
+    font-size: 22px;
+    color: #555963;
+}
+.content-paragraph {
+    font-size: 14px;
+    color: #555A63;
+    margin: 20px 0;
+    margin-right: 300px;
+}
+.content-button {
+    padding: 10px 10px;
+}
+.web-development-third-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 80px 145px 80px 145px;
+    gap: 378px;
+}
+.third-content-paragraph {
+    font-size: 14px;
+    color: #555A63;
+    margin: 20px 0;
+}
+/* .image{
+    margin-bottom: 60px;
+} */
