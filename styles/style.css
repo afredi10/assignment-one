@@ -33,18 +33,22 @@ body {
     gap: 28px;
 
 }
+
 .second-banner-content {
     text-align: center;
 }
-.second-banner-content h1{
+
+.second-banner-content h1 {
     font-size: 36px;
     margin-bottom: 16px;
 }
+
 .second-banner-content p {
     font-weight: 400;
     font-size: 13px;
     margin-bottom: 45px;
 }
+
 .second-banner-content button {
     color: white;
     background-color: #0D1321;
@@ -53,6 +57,7 @@ body {
     font-size: 15px;
     border-radius: 5px;
 }
+
 /* banner contents styles end here */
 /* banner container styles end here */
 
@@ -65,40 +70,49 @@ body {
     border: 2px solid red;
     margin-top: 64px;
 }
+
 .web-development-first-content {
     text-align: center;
 }
-.web-development-first-content h1{
+
+.web-development-first-content h1 {
     margin-top: 60px;
     font-size: 30px;
     margin-bottom: 20px;
 }
+
 .web-development-first-content p {
     font-weight: 400px;
     font-size: 13px;
     margin-right: 200px;
     margin-left: 200px;
 }
-.web-development-second-content, .web-development-fourth-content {
+
+.web-development-second-content,
+.web-development-fourth-content {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     margin: 80px 145px 80px 145px;
 }
+
 .content-header {
     font-weight: bold;
     font-size: 22px;
     color: #555963;
 }
+
 .content-paragraph {
     font-size: 14px;
     color: #555A63;
     margin: 20px 0;
     margin-right: 300px;
 }
+
 .content-button {
     padding: 10px 10px;
 }
+
 .web-development-third-content {
     display: flex;
     flex-direction: row;
@@ -106,6 +120,7 @@ body {
     margin: 80px 145px 80px 145px;
     gap: 378px;
 }
+
 .third-content-paragraph {
     font-size: 14px;
     color: #555A63;
@@ -121,25 +136,30 @@ body {
     margin-top: 64px;
     text-align: center;
 }
+
 .inspiration-header {
     margin-top: 60px;
     font-size: 30px;
     margin-bottom: 20px;
 }
+
 .inspiration-paragraph {
     font-weight: 400px;
     font-size: 13px;
     margin-right: 200px;
     margin-left: 200px;
 }
+
 .inspiration-container {
     display: flex;
     flex-direction: column;
 }
-.youtube-video{
+
+.youtube-video {
     margin-top: 60px;
     margin-bottom: 140px;
 }
+
 /* <!-- my inspiration section styles end here --> */
 
 /* <!-- My Current Target section styles start here --> */
@@ -151,6 +171,7 @@ body {
     text-align: center;
     margin-top: 140px;
 }
+
 .inspiration-images {
     width: 300px;
     height: 250px;
@@ -158,17 +179,23 @@ body {
     margin-top: 40px;
     text-align: left;
 }
+
 .inspiration-image-one {
     margin-bottom: 15px;
 }
+
 .inspiration-header-one {
     margin-bottom: 10px;
 }
+
 .inspiration-paragraph-one {
     margin-bottom: 15px;
 }
+
 .inspiration-images-container {
     display: flex;
     justify-content: space-around;
 }
-/* <!-- My Current Target section styles end here --> */ */
+
+/* <!-- My Current Target section styles end here --> */
+*/
