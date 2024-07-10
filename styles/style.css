@@ -112,7 +112,7 @@ body {
     margin: 20px 0;
 }
 
-
+/* <!-- my inspiration section styles start here --> */
 .inspiration-content {
     width: 1365px;
     height: 600px;
@@ -140,3 +140,35 @@ body {
     margin-top: 60px;
     margin-bottom: 140px;
 }
+/* <!-- my inspiration section styles end here --> */
+
+/* <!-- My Current Target section styles start here --> */
+.target-container {
+    width: 1365px;
+    height: 400px;
+    margin: 0 auto;
+    border: 2px solid red;
+    text-align: center;
+    margin-top: 140px;
+}
+.inspiration-images {
+    width: 300px;
+    height: 250px;
+    border: 2px solid green;
+    margin-top: 40px;
+    text-align: left;
+}
+.inspiration-image-one {
+    margin-bottom: 15px;
+}
+.inspiration-header-one {
+    margin-bottom: 10px;
+}
+.inspiration-paragraph-one {
+    margin-bottom: 15px;
+}
+.inspiration-images-container {
+    display: flex;
+    justify-content: space-around;
+}
+/* <!-- My Current Target section styles end here --> */ */
