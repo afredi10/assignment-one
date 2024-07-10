@@ -10,12 +10,13 @@ body {
     font-family: "Azeret Mono", monospace;
 }
 
+
 /* banner container styles start here */
 .banner-container {
     width: 1365px;
     height: 550px;
     margin: 0 auto;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     margin-top: 100px;
     background-image: url(../assets/banner-background.png);
     background-position: center;
@@ -32,6 +33,16 @@ body {
     margin-top: 20px;
     gap: 28px;
 
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.contact-with-me {
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
 }
 
 .second-banner-content {
@@ -65,10 +76,12 @@ body {
 /* <!-- web development section styles start here --> */
 .web-development-container {
     width: 1365px;
-    height: 1200px;
+    height: 1100px;
     margin: 0 auto;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     margin-top: 64px;
+    background-color: #fafafb;
+    border-radius: 15px;
 }
 
 .web-development-first-content {
@@ -86,6 +99,7 @@ body {
     font-size: 13px;
     margin-right: 200px;
     margin-left: 200px;
+    color: #555A63;
 }
 
 .web-development-second-content,
@@ -95,6 +109,10 @@ body {
     justify-content: space-around;
     margin: 80px 145px 80px 145px;
 }
+
+/* .web-development-second-content .web-development-third-content .web-development-fourth-content {
+    background-color: white;
+} */
 
 .content-header {
     font-weight: bold;
@@ -111,6 +129,7 @@ body {
 
 .content-button {
     padding: 10px 10px;
+    cursor: pointer;
 }
 
 .web-development-third-content {
@@ -132,7 +151,7 @@ body {
     width: 1365px;
     height: 600px;
     margin: 0 auto;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     margin-top: 64px;
     text-align: center;
 }
@@ -148,6 +167,7 @@ body {
     font-size: 13px;
     margin-right: 200px;
     margin-left: 200px;
+    color: #555A63;
 }
 
 .inspiration-container {
@@ -167,17 +187,20 @@ body {
     width: 1365px;
     height: 400px;
     margin: 0 auto;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     text-align: center;
     margin-top: 140px;
 }
 
 .inspiration-images {
     width: 300px;
-    height: 250px;
-    border: 2px solid green;
+    height: 210px;
+    /* border: 2px solid green; */
+    border-radius: 10px;
     margin-top: 40px;
     text-align: left;
+    padding: 15px 15px 15px 15px;
+
 }
 
 .inspiration-image-one {
@@ -190,11 +213,33 @@ body {
 
 .inspiration-paragraph-one {
     margin-bottom: 15px;
+    font-weight: 300px;
+    font-size: 13px;
 }
 
 .inspiration-images-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+
+
+}
+
+.inspiration-link-one {
+    color: black;
+}
+
+.one {
+    background-color: #fff6f4;
+}
+
+.two {
+    background-color: #91a2c579;
+}
+
+.three {
+    background-color: #f2f6fe;
 }
 
 /* <!-- My Current Target section styles end here --> */
@@ -203,48 +248,78 @@ body {
 .footer-container {
     width: 1365px;
     height: 275px;
-    border: 2px solid green;
+    /* border: 2px solid green; */
     margin: 0 auto;
     margin-top: 60px;
     background-image: url(../assets/handshake.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    margin-bottom: 40px;
     background-color: rgba(0, 0, 0, 0.5);
     background-blend-mode: overlay;
     text-align: center;
     color: white;
-    border-radius: 15px;
+    border-radius: 10px;
 }
-.footer-container h1{
+
+.footer-first-part h1 {
     font-weight: bold;
     font-size: 26px;
     margin-top: 55px;
     margin-bottom: 15px;
 }
+
 .footer-container p {
     font-weight: 400;
     font-size: 14px;
-    /* color: #827f77; */
     color: rgba(255, 255, 255, 0.623);
     margin-bottom: 30px;
 }
+
 .footer-container input {
-   font-size: 20px;
-   font-weight: 400;
-   padding: 10px 10px 10px 10px;
-   margin-top: 20px;
-   border-radius: 10px;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 10px 10px 10px 10px;
+    margin-top: 20px;
+    border-radius: 10px;
 }
+
 .text {
     width: 500px;
-   height: 50px;
+    height: 50px;
 }
+
 .submit {
     width: 150px;
-   height: 50px;
-   cursor: pointer;
-   color: #757575;
+    height: 50px;
+    cursor: pointer;
+    color: #757575;
 }
+
+.footer-first-part {
+    margin-top: 20px;
+}
+
+.footer-last-part {
+    width: 1365px;
+    height: 100px;
+    /* border: 2px solid red; */
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #f7f8f8;
+}
+
+.footer-last-part-header {
+    margin-top: 40px;
+    margin-left: 140px;
+}
+
+.footer-last-part-icons {
+    margin-top: 40px;
+    margin-right: 140px;
+}
+
 /* footer section styles end here */
