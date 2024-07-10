@@ -68,7 +68,6 @@ html {
     font-size: 15px;
     border-radius: 5px;
 }
-
 /* banner contents styles end here */
 /* banner container styles end here */
 
@@ -76,12 +75,13 @@ html {
 /* <!-- web development section styles start here --> */
 .web-development-container {
     width: 1365px;
-    height: 1100px;
+    height: 1450px;
     margin: 0 auto;
     /* border: 2px solid red; */
     margin-top: 64px;
     background-color: #fafafb;
     border-radius: 15px;
+    padding: 40px 40px 40px 40px;
 }
 
 .web-development-first-content {
@@ -108,11 +108,26 @@ html {
     flex-direction: row;
     justify-content: space-around;
     margin: 80px 145px 80px 145px;
+    background-color: white;
+    padding: 30px 30px 30px 30px;
 }
 
-/* .web-development-second-content .web-development-third-content .web-development-fourth-content {
+.web-development-third-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 80px 145px 80px 145px;
+    gap: 378px;
     background-color: white;
-} */
+    padding: 30px 30px 30px 30px;
+
+}
+
+.third-content-paragraph {
+    font-size: 14px;
+    color: #555A63;
+    margin: 20px 0;
+}
 
 .content-header {
     font-weight: bold;
@@ -131,20 +146,9 @@ html {
     padding: 10px 10px;
     cursor: pointer;
 }
+/* <!-- web development section styles end here --> */
 
-.web-development-third-content {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin: 80px 145px 80px 145px;
-    gap: 378px;
-}
 
-.third-content-paragraph {
-    font-size: 14px;
-    color: #555A63;
-    margin: 20px 0;
-}
 
 /* <!-- my inspiration section styles start here --> */
 .inspiration-content {
@@ -179,7 +183,6 @@ html {
     margin-top: 60px;
     margin-bottom: 140px;
 }
-
 /* <!-- my inspiration section styles end here --> */
 
 /* <!-- My Current Target section styles start here --> */
@@ -189,7 +192,7 @@ html {
     margin: 0 auto;
     /* border: 2px solid red; */
     text-align: center;
-    margin-top: 140px;
+    margin-top: 300px;
 }
 
 .inspiration-images {
@@ -241,8 +244,8 @@ html {
 .three {
     background-color: #f2f6fe;
 }
-
 /* <!-- My Current Target section styles end here --> */
+
 
 /* footer section styles start here */
 .footer-container {
@@ -257,6 +260,8 @@ html {
     background-size: cover;
     background-color: rgba(0, 0, 0, 0.5);
     background-blend-mode: overlay;
+    /* background-color: aqua; */
+    padding: 10px 10px 10px 10px;
     text-align: center;
     color: white;
     border-radius: 10px;
@@ -293,7 +298,6 @@ html {
     width: 150px;
     height: 50px;
     cursor: pointer;
-    color: #757575;
 }
 
 .footer-first-part {
@@ -302,14 +306,14 @@ html {
 
 .footer-last-part {
     width: 1365px;
-    height: 100px;
+    height: 70px;
     /* border: 2px solid red; */
     border-radius: 10px;
     margin: 0 auto;
-    margin-top: 20px;
+    margin-top: 40px;
     display: flex;
     justify-content: space-between;
-    background-color: #f7f8f8;
+    background-color: #f7f8f8b0;
 }
 
 .footer-last-part-header {
